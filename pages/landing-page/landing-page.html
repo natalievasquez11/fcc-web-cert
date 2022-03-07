@@ -4,9 +4,30 @@
     <meta charset="utf-8">
     <title>FCC Web Certification</title>
     <link rel="stylesheet" href="./landing-page.css" type="text/css">
+    <style type="text/css">
+      #form {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <header id="header">
+      <img id="header-img" src="../../images/sun.png">
+      <nav id="nav-bar">
+        <a href="" class="nav-link">link 1</a>
+        <a href="" class="nav-link">link 2</a>
+        <a href="" class="nav-link">link 3</a>
+      </nav>
+
+      <form id="form" style="display: flex; flex-direction: column; ">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="submit" id="submit">
+      </form>
+    </header>
+
+
+
     <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script type="module" src="./script.js"></script>
   </body>
 </html>
