@@ -36,4 +36,5 @@ button {
   padding: 5px;
   height: 35px;
   width: 100px;
+  border: 1px solid white;
 }
