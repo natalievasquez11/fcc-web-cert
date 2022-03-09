@@ -2,9 +2,12 @@
 
 body {
   margin: 0;
-  padding: 54px;
+  padding: 54px 0 0 0;
   font-family: 'Poppins', sans-serif;
   background-color: rgb(205, 205, 246);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -139,4 +142,33 @@ header {
   border-radius: 5px;
   border: 1px solid lavender;
   color: navy;
+}
+
+#home-link-div {
+  text-align: center;
+  margin: 50px;
+}
+
+#home-link {
+  text-decoration: none;
+  color: navy;
+  background-color: lavender;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#home-link:hover {
+  color: lavender;
+  background-color: navy;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: navy;
+  color: white;
+  text-align: right;
+  padding: 0 30px;
 }
