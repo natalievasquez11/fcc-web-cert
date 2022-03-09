@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 54px;
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(205, 205, 246);
 }
 
 header {
@@ -33,9 +34,9 @@ header {
 #nav-bar {
   display: flex;
   align-items: center;
-}
+} 
 
-li {
+#nav-bar li {
   list-style-type: none;
   display: inline;
   padding: 0 10px;
@@ -54,8 +55,88 @@ li {
   text-align: center;
 }
 
-form {
-  width: 50%;
+#form-title {
+  color: navy;
+  font-size: 25px;
 }
 
+#email, #submit {
+  width: 30%;
+  align-self: center;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
 
+#submit {
+  margin: 15px;
+  background-color: navy;
+  border: 1px solid navy;
+  color: white;
+  height: 35px;
+}
+
+#dream-sections-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.dream-section {
+  display: flex;
+  flex-direction: row;
+  color: navy;
+  margin-bottom: 50px;
+}
+
+.dream-section img {
+  height: 80px;
+  width: 80px;
+  margin-right: 30px;
+}
+
+.dream-section h2, .dream-section h3 {
+  margin: 0px;
+}
+
+#video-div {
+  display: flex;
+  justify-content: center;
+}
+
+#prices-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.price-div {
+  text-align: center;
+  border: 1px solid navy;
+  background-color: navy;
+  border-radius: 20px;
+  color: lavender;
+}
+
+.price-div h3 {
+  background-color: rgb(0, 0, 87);
+  padding: 10px 0;
+  margin: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.price-info {
+  padding: 0 60px 40px 60px;
+  list-style-type: none;
+}
+
+.price-info button {
+  margin-top: 30px;
+  height: 35px;
+  width: 85px;
+  background-color: lavender;
+  border-radius: 5px;
+  border: 1px solid lavender;
+  color: navy;
+}

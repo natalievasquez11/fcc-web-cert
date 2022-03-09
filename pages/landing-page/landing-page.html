@@ -25,33 +25,104 @@
 
       <nav id="nav-bar">
         <li><a href="#video" class="nav-link">Video</a></li>
-        <li><a href="#form" class="nav-link">Get Started</a></li>
+        <li><a href="#form-title" class="nav-link">Get Started</a></li>
         <li><a href="#prices" class="nav-link">Prices</a></li>
       </nav>
     </header>
 
     <main>
       <div id="form-div">
-        <p>Understand Your Dreams</p>
+        <p id="form-title">Understand Your Dreams</p>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input type="email" id="email" placeholder="Email" name="email" required>
-          <input type="submit" id="submit" value="Submit">
+          <input type="submit" id="submit" value="Get Started">
         </form>
       </div>
 
-      <iframe width="560" height="315" 
-      id="video"
-      src="https://www.youtube.com/embed/FFwA0QFmpQ4" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen></iframe>
+      <div id="dream-sections-div">
+        <section class="dream-section">
+          <span>
+            <img src="../../images/aim.png">
+          </span>
+          <span>
+            <h2>Dream Meanings</h2>
+            <h3>Tips and tricks on how to determine the meaning of your dreams.</h3>
+          </span>
+        </section>
+        <section class="dream-section">
+          <span>
+            <img src="../../images/dreams.png">
+          </span>
+          <span>
+            <h2>Lucid Dreaming</h2>
+            <h3>Learn how to become aware you are dreaming while asleep and possibly
+              take control of what happens in your dreams.
+            </h3>
+          </span>
+        </section>
+        <section class="dream-section">
+          <span>
+            <img src="../../images/sleeping.png">
+          </span>
+          <span>
+            <h2>Purpose of Dreams</h2>
+            <h3>Discover why you dream and how you can use it to your advantage</h3>
+          </span>
+        </section>
+      </div>
 
-      <div id="prices">
-        <p>Prices Div</p>
+      <div id="video-div">
+        <iframe width="560" height="315" 
+        id="video"
+        src="https://www.youtube.com/embed/FFwA0QFmpQ4" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+      </div>
+
+
+      <div id="prices-div">
+
+        <div class="price-div">
+          <div class="price-title">
+            <h3>FREE</h3>
+          </div>
+          <div class="price-info">
+            <h2>$0.00</h2>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <button>SELECT</button>
+          </div>
+        </div>
+        <div class="price-div">
+          <div class="price-title">
+            <h3>FREE PLUS</h3>
+          </div>
+          <div class="price-info">
+            <h2>$0.00</h2>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <button>SELECT</button>
+          </div>  
+        </div>
+        <div class="price-div">
+          <div class="price-title">
+            <h3>SUPREMELY FREE</h3>
+          </div>
+          <div class="price-info">
+            <h2>$0.00</h2>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <button>SELECT</button>
+          </div>  
+        </div>
       </div>
       <p>Dream icons created by Freepik - Flaticon</p>
-      <a href="../../index.html">Home</a>
+      <a href="../../index.html">Go Home</a>
   </main>
     <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script type="module" src="./script.js"></script>
   </body>
