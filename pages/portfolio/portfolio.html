@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>FCC Web Certification</title>
     <link rel="stylesheet" href="./portfolio.css" type="text/css">
+    <script src="https://kit.fontawesome.com/29d95da605.js" crossorigin="anonymous"></script>
     <style>
       @media(max-width:800px) {
         
@@ -23,16 +24,47 @@
 
     <div id="projects">
       <p id="projects-title">Check out my Projects</p>
-      <div class="project-tile">
-        <a href="../tribute-page/tribute-page.html">Tribute Page</a>
+      <div id="project-tiles">
+        <a href="../tribute-page/tribute-page.html">
+          <div class="project-tile">
+            <img src="../../images/tribute-pg-screenshot.png">
+            <p class="project-desc">Tribute Page</p>
+          </div>
+        </a>
+        <a href="../survey-form/survey-form.html">
+          <div class="project-tile">
+            <img src="../../images/survey-form-screenshot.png">
+            <p class="project-desc">Survey Form</p>
+          </div>
+        </a>
+        <a href="../landing-page/landing-page.html">
+          <div class="project-tile">
+            <img src="../../images/landing-pg-screenshot.png">
+            <p class="project-desc">Landing Page</p>
+          </div>
+        </a>
+        <a href="../documentation/documentation.html">
+          <div class="project-tile">
+            <!-- <img src=""> -->
+            <p class="project-desc">Technical Documentation Page</p>
+          </div>
+        </a>
       </div>
     </div>
 
     <div id="contact">
-      <a href="https://www.freecodecamp.org/" id="profile-link" target="_blank">FCC</a>
+      <p>Contact Me</p>
+
+      <a href="https://www.freecodecamp.org/" id="profile-link" target="_blank">
+        <i class="fa fa-free-code-camp" aria-hidden="true"></i>  freeCodeCamp
+      </a>
     </div>
 
-    <a href="../../index.html">Home</a>
+    <div class="footer">
+      <p>*This is a practice/project portfolio</p>
+      <a href="../../index.html" id="home-link">Go Home</a>
+    </div>
+
     <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script type="module" src="./script.js"></script>
   </body>
 </html>
