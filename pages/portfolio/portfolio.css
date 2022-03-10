@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap');
 
 body {
   margin: 0;
@@ -53,4 +53,14 @@ body {
   font-size: 35px;
   margin: 10px 0;
   font-style: italic;
+}
+
+#projects {
+  background-color: aliceblue;
+  color: rgb(193, 223, 248)
+}
+
+#projects-title {
+  font-weight: 100;
+  font-size: 55px;
 }
