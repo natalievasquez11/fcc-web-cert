@@ -133,17 +133,11 @@ a:link { text-decoration: none; }
   color: rgb(255, 218, 223);
   padding: 0 30px;
   height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#home-link {
-  text-decoration: none;
-  color: rgb(255, 218, 223);
   text-align: right;
 }
 
-#home-link:hover {
-  color: white;
+.footer p {
+  display: inline-block;
+  vertical-align: middle;
 }
+
